@@ -1,0 +1,90 @@
+#root {
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+    /* Portrait */
+    @media only screen 
+    and (device-width: 320px) 
+    and (device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+        height: calc(568px - 130px);
+        width: 320px;
+    }
+
+    /* Landscape */
+    @media only screen 
+    and (device-width: 320px) 
+    and (device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+        height: calc(320px - 130px);
+        width: 568px;
+    }
+
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+    /* Portrait */
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+        height: calc(667px - 130px);
+        width: 375px;
+    }
+
+    /* Landscape */
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+        height: calc(375px - 130px);
+        width: 667px;
+    }
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+    /* Portrait */
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+        height: calc(736px - 130px);
+        width: 414px;
+    }
+
+    /* Landscape */
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+        height: calc(414px - 130px);
+        width: 736px;
+    }
+
+    /* ----------- iPhone X ----------- */
+
+    /* Portrait */
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+        height: calc(812px - 130px);
+        width: 375px;
+    }
+
+    /* Landscape */
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+        height: calc(375px - 130px);
+        width: 812px;
+    }
+}

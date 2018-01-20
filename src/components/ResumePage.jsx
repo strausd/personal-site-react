@@ -81,6 +81,82 @@ const ResumePage = () => {
                     <p>Assist for one semester of Animation Processes</p>
                 </div>
             </div>
+            <div className="resume-section">
+                <h2 className="resume-header">Relevant Classes</h2>
+                <div className="resume-section-body">
+                    <div className="resume-experience-subhead">
+                        <h3>University Classes</h3>
+                    </div>
+                    <p>Computer Science I & II</p>
+                    <p>Computer Science Lab</p>
+                    <p>Programming Fundamentals</p>
+                    <p>Independent Research in Arts and Technology</p>
+                    <p>Project Management</p>
+                    <p>Design Principles</p>
+                    <p>Computer Imaging</p>
+                    <p>Virtual Environments</p>
+                </div>
+                <div className="resume-section-body">
+                    <div className="resume-experience-subhead">
+                        <h3>Online Classes through Udemy</h3>
+                    </div>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/react-2nd-edition/">
+                            The Complete React Web App Developer Course (with Redux) — Andrew Mead
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/">
+                            Angular 5 The Complete Guide — Maximilian Schwarzmüller
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/the-complete-javascript-course/learn/v4/">
+                            The Complete JavaScript Course — Jonas Schmedtmann
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/">
+                            The Complete Node.js Developer Course — Andrew Mead
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/learn/v4/">
+                            Build Responsive Websites with HTML5 and CSS3 — Jonas Schmedtmann
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/the-web-developer-bootcamp/learn/v4/">
+                            The Web Developer Bootcamp — Colt Steele
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/java-the-complete-java-developer-course/learn/v4/">
+                            Complete Java Masterclass — Tim Buchalka
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://www.udemy.com/complete-python-bootcamp/learn/v4/">
+                            Complete Python Bootcamp — Jose Portilla
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="resume-section">
+                <h2 className="resume-header">Education</h2>
+                <div className="resume-section-body">
+                    <div className="resume-experience-subhead">
+                        <h3>MFA in Arts and Technology</h3>
+                        <p className="date">UT Dallas - December 2015</p>
+                    </div>
+                </div>
+                <div className="resume-section-body">
+                    <div className="resume-experience-subhead">
+                        <h3>BA in Arts and Technology</h3>
+                        <p className="date">UT Dallas - August 2013</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

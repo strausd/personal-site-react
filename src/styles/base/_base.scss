@@ -58,3 +58,10 @@ p {
     display: block;
     text-align: center;
 }
+
+.portrait {
+    border: 5px solid $gray;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}

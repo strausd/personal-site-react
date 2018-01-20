@@ -11,6 +11,7 @@ export class HomePage extends React.Component {
         return (
             <div className="centered">
                 <div className="block">
+                    <img className="portrait" src="dist/img/portrait.jpeg" />
                     <h1>Developer.</h1>
                     <p>Swipe around. Have some fun.</p>
                 </div>

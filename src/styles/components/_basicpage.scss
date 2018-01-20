@@ -200,6 +200,10 @@ div::-webkit-scrollbar {
     }
 }
 
+.project:last-child {
+    margin-bottom: 2em;
+}
+
 .project:hover .project-overlay {
     bottom: 0;
     height: 100%;

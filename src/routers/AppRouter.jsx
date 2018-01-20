@@ -15,7 +15,7 @@ const AppRouter = () => {
             <div className="app-container">
                 <Header />
 
-                <div className="content">
+                <div className="content fade__in">
                     <SwipeableRoutes>
                         <Route exact path="/" component={HomePage} />
                         <Route exact path="/resume" component={ResumePage} />

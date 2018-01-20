@@ -13,7 +13,7 @@ export class HomePage extends React.Component {
                 <div className="block">
                     <img className="portrait" src="dist/img/portrait.jpeg" />
                     <h1>Developer.</h1>
-                    <p>Swipe around. Have some fun.</p>
+                    <p>With red hair.</p>
                 </div>
             </div>
         );

@@ -76,3 +76,8 @@ p {
     @extend .portrait;
     border: 3px solid $gray;
 }
+
+.hidden {
+    opacity: 0;
+    transition: 1s ease;
+}

@@ -15,12 +15,15 @@ div::-webkit-scrollbar {
 }
 
 .page {
+    border: 2px solid $darkish-gray;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 104px);
-    margin: 0 auto;
-    max-width: 85%;
-    padding: 0;
+    // height: calc(100vh - 104px);
+    height: 80vh;
+    margin: 1em auto 0 auto;
+    max-width: 90%;
+    padding: 0 1em;
     transition: .6s ease;
     overflow-y: scroll; /* has to be scroll, not auto */
     -webkit-overflow-scrolling: touch;

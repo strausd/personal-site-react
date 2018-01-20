@@ -15,7 +15,7 @@
 
 .header__content {
     background: $dark-gray;
-    height: 100px;
+    height: 16vh;
     padding-bottom: .5em;
     padding-top: 1em;
 }
@@ -23,7 +23,7 @@
 .header__transition {
     background: linear-gradient($dark-gray, rgba(0,0,0,0));
     width: 100%;
-    height: 30px;
+    height: 4vh;
 }
 
 .header__nav-list {

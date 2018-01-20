@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollArea from 'react-scrollarea';
 
 
 const ResumePage = () => {

@@ -20,7 +20,7 @@ div::-webkit-scrollbar {
     height: calc(100vh - 104px);
     margin: 0 auto;
     max-width: 85%;
-    padding: 0;
+    padding: 0 0 2em 0;
     transition: .6s ease;
     overflow-y: scroll; /* has to be scroll, not auto */
     -webkit-overflow-scrolling: touch;

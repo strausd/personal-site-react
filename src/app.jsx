@@ -1,21 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import FadeIn from 'react-fade-in';
 
-import configureStore from './store/store';
 import App from './components/App';
 
 import './styles/styles.scss';
 
-// TODO
-// Cleanup for solid boilerplate
-
-const store = configureStore();
 
 const jsx = (
-    <Provider store={store}>
+    <FadeIn>
         <App />
-    </Provider>
+    </FadeIn>
 );
 
 ReactDOM.render(jsx, document.getElementById('root'));

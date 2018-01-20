@@ -65,3 +65,14 @@ p {
     height: 180px;
     width: 180px;
 }
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-image {
+    @extend .portrait;
+    border: 3px solid $gray;
+}

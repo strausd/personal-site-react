@@ -1,0 +1,79 @@
+div::-webkit-scrollbar {
+  width: 0;
+  background-color: rgba(0,0,0,0);
+}
+
+.page {
+    width: 100%;
+    height: calc(100vh - 104px);
+    display: flex;
+    flex-direction: column;
+}
+
+.page__title {
+    text-align: center;
+}
+
+.resume-section {
+    margin: 1.5em 1em 1em 1em;
+    padding: 0 1em 1.5em 1em;
+    border-bottom: 5px solid $gray;
+}
+
+.resume-section:last-of-type {
+    border-bottom: none;
+}
+
+.resume-header {
+    padding-bottom: 0.3em;
+    border-bottom: 3px solid $gray;
+    margin: 0;
+}
+
+.resume-section-body {
+    margin-top: 1.3em;
+    border-bottom: 1px solid $gray;
+}
+
+.resume-section-body:last-child {
+    border-bottom: none;
+}
+
+// List Styles
+.resume-section-body {
+
+
+    ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 2;
+    }
+
+    li {
+        list-style-type: none;
+        width: 33%;
+    }
+
+    li:nth-child(3n+2) {
+        text-align: center;
+    }
+
+    li:nth-child(3n+3) {
+        text-align: right;
+    }
+}
+
+.resume-experience-subhead {
+
+    // border-bottom: 1px solid $gray;
+
+    h3 {
+        margin: 0;
+    }
+
+    p {
+        font-size: .85em;
+        margin: 0 0 1em 0;
+    }
+}

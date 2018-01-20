@@ -12,7 +12,7 @@ import AboutPage from '../components/AboutPage';
 const AppRouter = () => {
     return (
         <Router>
-            <div>
+            <div className="app-container">
                 <Header />
 
                 <div className="content">

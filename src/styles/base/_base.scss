@@ -1,5 +1,9 @@
 @import './_variables.scss';
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: $dark-gray;
     color: $primary;
@@ -29,6 +33,28 @@ a, a:active, a:visited, a:focus {
     outline: none;
 }
 
+p {
+    font-size: 1.1em;
+}
+
 .content {
     margin-top: 6.5em;
+    // position: fixed;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    // max-height: 50%;
+    // overflow: auto;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.block {
+    display: block;
+    text-align: center;
 }

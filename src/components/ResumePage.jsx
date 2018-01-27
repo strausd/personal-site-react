@@ -50,9 +50,12 @@ const ResumePage = () => {
                         <p className="date">July 2017 - Present</p>
                     </div>
                     <p>Work in a fast-paced environment, context switching between multiple projects</p>
-                    <p>Build backends for large scale web applications using Python, Django, and PostgreSQL</p>
                     <p>Build responsive front end sites using CSS, Bootstrap, and JavaScript</p>
+                    <p>Lead React/Redux Lunch & Learn program for all IT</p>
                     <p>Push for the adoption of new technologies, including React and Docker</p>
+                    <p>Build prototypes and products based on wireframes and mockups</p>
+                    <p>Test and optimize websites for maximum efficiency and performance</p>
+                    <p>Build backends for large scale web applications using Python, Django, and PostgreSQL</p>
                     <p>Utilize my design skills for projects when designer resources were strained</p>
                     <p>Utilize Git and BitBucket for all source code version control and issue tracking</p>
                     <p>Work with clients to gather requirements and facilitate negotiations regarding features, timeline, and technical architecture</p>

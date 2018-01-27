@@ -8,7 +8,7 @@ const ResumePage = () => {
             <div className="resume-section">
                 <h2 className="resume-header">Summary</h2>
                 <div className="resume-section-body">
-                    <p>Looking for a new opportunity where I can utilize my skills in front end JavaScript libraries and frameworks, including React and Angular, and backend web technologies, such as Python/Django and Node. I also have a passion for solid user experience and design. I am hard working, a self-starter, a fast learner, and enjoy taking on technical challenges. I thrive in collaborative and team-driven environments that breed quick and high quality results. I am eager to apply my skills and create software that positively impacts people’s lives.</p>
+                    <p>Looking for an opportunity where I can utilize my skills in front end JavaScript libraries and frameworks, including React and Angular. I have a passion for solid user experience and design. I am hard working, detail-oriented, a self-starter, a fast learner, and enjoy taking on difficult technical challenges. I have an excitement for learning new technologies and advocating for them in the workplace. I thrive in agile, collaborative, and team-driven environments that breed quick and high-quality results. I am eager to apply my skills and create software that positively impacts people’s lives.</p>
                 </div>
             </div>
             <div className="resume-section">
@@ -17,25 +17,28 @@ const ResumePage = () => {
                     <ul>
                         <li>JavaScript</li>
                         <li>ES6</li>
-                        <li>React/Redux</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SCSS</li>
                         <li>Angular</li>
+                        <li>TypeScript</li>
+                        <li>React/Redux</li>
+                        <li>Bootstrap</li>
+                        <li>Semantic UI</li>
+                        <li>Foundation</li>
+                        <li>Jest/Enzyme</li>
+                        <li>Mocha/Jasmine</li>
                         <li>Node.js</li>
                         <li>Express.js</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
                         <li>Webpack</li>
-                        <li>Python</li>
-                        <li>Django</li>
                         <li>Socket.IO</li>
                         <li>MongoDB</li>
                         <li>PostgreSQL</li>
                         <li>RESTful APIs</li>
-                        <li>Bootstrap</li>
-                        <li>Unit Testing</li>
-                        <li>Git</li>
+                        <li>Git/GitHub</li>
+                        <li>Python</li>
+                        <li>Django</li>
                         <li>Java</li>
                         <li>Adobe CC</li>
-                        <li>3D Modeling</li>
                     </ul>
                 </div>
             </div>
@@ -48,7 +51,7 @@ const ResumePage = () => {
                     </div>
                     <p>Work in a fast-paced environment, context switching between multiple projects</p>
                     <p>Build backends for large scale web applications using Python, Django, and PostgreSQL</p>
-                    <p>Build responsive front end sites using HTML, CSS, Bootstrap, and JavaScript</p>
+                    <p>Build responsive front end sites using CSS, Bootstrap, and JavaScript</p>
                     <p>Push for the adoption of new technologies, including React and Docker</p>
                     <p>Utilize my design skills for projects when designer resources were strained</p>
                     <p>Utilize Git and BitBucket for all source code version control and issue tracking</p>

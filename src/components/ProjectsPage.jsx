@@ -12,6 +12,21 @@ const ProjectsPage = () => {
                             <div className="circle red"></div>
                             <div className="circle yellow"></div>
                             <div className="circle green"></div>
+                            <p>Budget App</p>
+                        </div>
+                        <img alt="Omnifood Web Project" src="dist/img/projects/expensify.png" />
+                        <div className="project-overlay">
+                            <div className="project-overlay-text">
+                                <h2>Expensify</h2>
+                            </div>
+                            <a className="project-link" href="https://react-course-expensify-strausd.herokuapp.com/dashboard" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div className="project">
+                        <div className="menubar">
+                            <div className="circle red"></div>
+                            <div className="circle yellow"></div>
+                            <div className="circle green"></div>
                             <p>Omnifood Project</p>
                         </div>
                         <img alt="Omnifood Web Project" src="dist/img/projects/omnifood.png" />
@@ -19,7 +34,7 @@ const ProjectsPage = () => {
                             <div className="project-overlay-text">
                                 <h2>Omnifood</h2>
                             </div>
-                            <a className="project-link" href="http://omnifoodproject.000webhostapp.com/" target="_blank"></a>
+                            <a className="project-link" href="https://omnifoodproject.000webhostapp.com/" target="_blank"></a>
                         </div>
                     </div>
                     <div className="project">

@@ -11,7 +11,7 @@ const AboutPage = () => {
             responsible for the technical implementation of managing open source
             software for the entire organization. We build in house applications
             to handle requests for open source libraries, retiring software,
-            approving software, etc. We also implement vendor tools like Jfrog
+            approving software, etc. We also implement vendor tools like JFrog
             Artifactory and Xray to create our own internal repositories for
             NPM, Maven, PyPi, Docker, etc. Vendor tools alone are not enough to
             fit the requirements of the organization. We also build custom

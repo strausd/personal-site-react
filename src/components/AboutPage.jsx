@@ -10,7 +10,7 @@ const AboutPage = () => {
             I am currently working as a software engineer at USAA. My team is
             responsible for the technical implementation of managing open source
             software for the entire organization. We build in house applications
-            to handle requesting open source libraries, retiring software,
+            to handle requests for open source libraries, retiring software,
             approving software, etc. We also implement vendor tools like Jfrog
             Artifactory and Xray to create our own internal repositories for
             NPM, Maven, PyPi, Docker, etc. Vendor tools alone are not enough to
@@ -26,14 +26,17 @@ const AboutPage = () => {
             mentor junior developers.
           </p>
           <p>
-            Prior to Insite and USAA, I worked in 3D animation and visual
+            After graduating from UT Dallas, I worked in 3D animation and visual
             effects at ReelFX. Shortly after starting, I gravitated towards the
             technical aspects of 3D. I quickly became my team's developer,
             creating automation tools in Python to enhance and speed up artist's
             workflow. I worked on Scooby Doo (expected release late 2020) and
             Wish Police (unknown release date). If you get bored, feel free to
             check out my{" "}
-            <a href="https://www.youtube.com/watch?v=ZvL4wKIZtL8" target="_blank">
+            <a
+              href="https://www.youtube.com/watch?v=ZvL4wKIZtL8"
+              target="_blank"
+            >
               old demo reel
             </a>
             .

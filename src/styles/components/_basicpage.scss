@@ -219,3 +219,10 @@ div::-webkit-scrollbar {
     }
 }
 
+.resume-section-body p a {
+    color: #8a8aff;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

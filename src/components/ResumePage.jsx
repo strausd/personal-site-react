@@ -89,8 +89,8 @@ const ResumePage = () => {
               properly unit test code to ensure quality
             </p>
             <p>
-              Configure/maintain application servers manually and through
-              configuration as code tools such as Puppet
+              Configure and maintain application servers manually and through
+              configuration-as-code tools such as Puppet
             </p>
             <p>
               Lead and mentor junior developers on the team to help improve
